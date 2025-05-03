@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Getting Started with Web3 Lottery Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a demo application to implement Lottery application in ReactJS and Solidity.
 
 ## Available Scripts
 

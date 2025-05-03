@@ -58,8 +58,8 @@ function Home() {
     await tx.wait();
   };
 
-  const claimPrice = async () => {
-    const tx = await contractInstance.claimPrice();
+  const claimPrize = async () => {
+    const tx = await contractInstance.claimPrize();
     await tx.wait();
   };
 
@@ -69,7 +69,7 @@ function Home() {
       <div className="button-container">
         {status ? (
           isWinner ? (
-            <button className="enter-button" onClick={claimPrice}>
+            <button className="enter-button" onClick={claimPrize}>
               Claim Prize
             </button>
           ) : (

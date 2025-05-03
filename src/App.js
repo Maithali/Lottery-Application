@@ -14,7 +14,7 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/PickWinner">PickWinner </Link>
+              <Link to="/PickWinner">PickWinner</Link>
             </li>
           </ul>
         </nav>
